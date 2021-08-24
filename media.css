@@ -1,0 +1,178 @@
+@media only screen and (max-width: 767px){
+    .container{
+        width: 100%;
+    }
+    .nav{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav ul{
+        flex-direction: column;
+    }
+    .right{
+        position: unset;
+    }
+    .right ul{
+        flex-direction: row !important;
+    }
+    .content{
+        height: 400px;
+        
+    }
+    .content h3{
+        font-size: 29px;
+    }
+    .content p{
+        font-size: 12px;
+    }
+    .allbox{
+        margin-top: 10px;
+        position: unset;
+    }
+    .box{
+        text-align: center;
+    }
+    .service-section{
+        height: 1250px;
+    }
+    .blockchain-data{
+        flex-direction: column;
+    }
+    .blockchain-data-img{
+        width: 100%;
+        position: unset;
+    }
+    .blockchain-data-content{
+        width: 100%;
+        text-align: center;padding-right: 0;
+    }
+    .blockchain-data-content h1{
+        padding-right: 0px;
+        
+    }
+    #blockchain-data-down-contain{
+        text-align: center !important;
+    }
+    #blockchain-data-down-contain h1 {padding-right: 0;
+    text-align: center;
+    padding-left:0;}
+    .chk-button{
+        display: block;
+    }
+    .nav ul{
+        width: 100%;
+        position: fixed;
+        background-color: cadetblue; 
+        text-align: center;
+        height: 40vh;
+        margin-top: 10px;
+        padding: 0;
+        left: -100%;
+        transition: all .5s;
+    }
+    .nav ul li {
+        display: block;
+    margin: 0; }
+    #chk:checked ~ ul{
+        left: 0;
+    }
+    .join-section{
+        height: auto;
+    }
+    .join-section-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 350px;
+    }
+    .all-item{
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 650px;
+        text-align: center;
+    }
+    .course{
+        height: 600px;
+    }
+    .course-contain{
+        height: auto;
+        align-items: baseline;
+        flex-direction: column;
+    }
+    .txt-contain{
+        margin-left: 50px;
+    }
+    .course-detail{
+        width: 90%;
+    }
+    .course-detail ul{
+        flex-direction: column;
+    }
+    .course-detail ul li{
+        width: 80%;
+        justify-content: start;
+    }
+.course-detail ul li img{
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.course-box{
+    flex-direction: column;
+}
+.our-course-box{
+    width: 100%;
+}
+.achievement{
+    height: auto;
+}
+.txt-center h5{
+    padding: 0;
+}
+.certifications{
+    flex-direction: column;
+}
+.certification-content {
+    margin: 0;
+}
+.certification-logo{
+    margin-top: 50px;
+}
+.review-data{
+    flex-direction: column;
+}
+.right-review,.left-review{
+    width: auto;
+}
+.logo-brand{
+    width:80%;
+    overflow: scroll;
+}
+.brands-logo{
+    justify-content: unset;
+}
+.free-trail{
+    flex-direction: column;
+}
+.free-trail-left, .free-trail-right{
+    width: 100%;
+}
+.free-trail-left{
+    padding-right: 0;
+}
+.footer-logo ,.footer-contain{
+    height: unset;
+}
+.footer-contain{
+    flex-direction: column;
+    align-items: flex-start;
+}
+.footer-img{
+    width: unset;
+}
+.footer-menu{
+    flex-direction: column;
+}
+}

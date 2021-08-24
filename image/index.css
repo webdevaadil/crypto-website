@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.txtcenter{
+    text-align: center;
+}
+
+/* start header css */
+.header-section{
+    background: url(/images/background-slider-min.jpg)  center;
+    height: 800px;
+    width: 100%;
+    
+}
+.logo{
+    
+}
+.nav{
+    display: flex;
+    position: relative;
+    padding-top: 35px;
+}
+.nav ul{
+    display: flex;
+    padding: 15px;
+    font-size: 16px;   
+    font-weight: bold;
+}
+.nav ul li{
+    list-style-type: none;
+    padding: 10px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400px;
+    padding: 0px 12px;
+}
+.nav ul li a:hover{
+    color: #ffd703;
+}
+.right{
+    /* display: flex; */
+    position: absolute;
+    right: 0;
+}
+.right i{
+    color: white;
+}
+.right li{
+    /* padding: 0px 14px; */
+}
+.right li a{
+    color: rgb(0, 0, 0)!important;
+    text-decoration: none;
+    padding: 12px !important;
+    background-color: #ffd703;
+}
+.right li a:hover{
+    background-color: #e9c40c ;
+}
+.content{
+    color: #fff;
+    font-family: 'Poppins';
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content h3{
+    font-size: 55px;
+}
+.content p{
+    font-size: 19px;
+    padding: 10px 0px;
+}
+.button{
+    padding-top: 50px;
+
+    
+}
+.button a{
+    text-decoration: none;
+    color: #000;
+    background-color: #ffd703;
+    padding: 14px 22px;
+}
+/* End header css */
+
+/* start service-section css */
+.service-section{
+   position: relative;
+   height: 250px;
+}
+.allbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: absolute;
+    top: -190px;
+   
+}
+.box{
+    width: 360px;
+    height: 340px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 15px 20px rgb(0 0 0 / 8%);
+    margin: 18px;
+    position: relative;
+    transition: all 0.3s ease 0s;
+
+
+}
+.box::before{
+    content: '';
+    display: block;
+    width: 197px;
+    height: 276px;
+    background-image: url(/images/bg-feature.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+  
+}
+.box:hover{
+    background-color: #ffd703;
+}
+.box:hover a{
+    background-color: #400a96;
+    color: white;
+}
+ .content2{
+    color: #000;
+    padding: 22px;
+}
+.content2 h2{
+    padding: 10px 0px;
+}
+.content2 p{
+    line-height: 45px;
+    padding-bottom: 20px;
+}
+.content2 p i{
+    padding-right: 9px;
+}
+.content2 a{
+    text-decoration: none;
+    border: 2px solid #e9c40c;
+    color: black;
+    padding: 8px;
+    transition: all 0.3s ease 0s;
+
+}
+.content2 a:hover{
+    background-color: white;
+    color: black;
+    border-color: #400a96;
+}
+
+/*  End service-section css */
+/*  start blockchain-section css */
+.blockchain-section{
+}
+.row0{
+    font-size: 30px;
+    line-height: 42px;
+    color: #000;
+}
+.row1{
+   font-size: 18px;
+   padding-top: 10px;
+}
+.left{
+    width: 50%;
+    position: relative;
+}
+.left img{
+    max-width: 100%;
+    position: absolute;
+    top: -100px;
+}
+
+.right2{
+    width: 50%;
+    padding: 95px 0px;
+}
+.right2 .content3{
+    color: #000;
+    font-size: 20px;
+}
+.content3 h4{
+    padding: 25px 0px;
+}
+.content3 p{
+    font-size: 16px;
+}
+.left-right{
+    display: flex;
+}
+.left-right1{
+    display: flex;
+}
+.left-1{
+    text-align: right;
+    width: 50%;
+}
+.right-1{
+    width: 50%;
+}
+.left-1 h3{
+    padding: 20px 0px;
+}
+.left-1 p{
+    font-size: 16px;
+    line-height: 28px;
+}
+.right-1{
+    position: relative;
+}
+.right-1 img{
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    top: -150px;
+}
+/*  End blockchain-section css */
+
+/*  start join-section css */
+.join-section{
+    background-color: #ffd703;
+    margin: 50px;
+}
+.all-item{
+    display: flex;
+}
+
+/*  End join-section css */

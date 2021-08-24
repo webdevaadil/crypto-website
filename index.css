@@ -1,0 +1,639 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+body{
+    scroll-behavior: smooth;
+}
+.txt-center{
+    text-align: center;
+    
+}
+.txt-center h2{
+    text-align: center;
+    font-size: 30px;
+    line-height: 42px;
+    color: #000;
+}
+
+/* start header css */
+.header-section{
+    background: url(image/background-slider-min.jpg) no-repeat;
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+    
+}
+.logo{
+    
+}
+.nav{
+    display: flex;
+    position: relative;
+    padding-top: 35px;
+}
+.nav ul{
+    display: flex;
+    padding: 15px;
+    font-size: 16px;   
+    font-weight: bold;
+}
+.nav ul li{
+    list-style-type: none;
+    padding: 10px;
+    text-align: center;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400px;
+    padding: 0px 12px;
+}
+.nav ul li a:hover{
+    color: #ffd703;
+}
+.right{
+    /* display: flex; */
+    position: absolute;
+    right: 0;
+}
+.right i{
+    color: white;
+}
+.right li{
+    /* padding: 0px 14px; */
+}
+.right li a{
+    color: rgb(0, 0, 0)!important;
+    text-decoration: none;
+    padding: 12px !important;
+    background-color: #ffd703;
+}
+.right li a:hover{
+    background-color: #e9c40c ;
+}
+.content{
+    color: #fff;
+    font-family: 'Poppins';
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.content h3{
+    font-size: 55px;
+}
+.content p{
+    font-size: 19px;
+    padding: 10px 0px;
+}
+.button{
+    padding-top: 50px;
+
+    
+}
+.button a{
+    text-decoration: none;
+    color: #000;
+    background-color: #ffd703;
+    padding: 14px 22px;
+}
+/* End header css */
+
+/* start service-section css */
+.service-section{
+   position: relative;
+   height: 250px;
+}
+.allbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: absolute;
+    top: -190px;
+   
+}
+.box{
+    width: 360px;
+    height: 340px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 15px 20px rgb(0 0 0 / 8%);
+    margin: 18px;
+    position: relative;
+    transition: all 0.3s ease 0s;
+
+
+}
+.box::before{
+    content: '';
+    display: block;
+    width: 197px;
+    height: 276px;
+    background-image: url(image/bg-feature.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+  
+}
+.box:hover{
+    background-color: #ffd703;
+}
+.box:hover a , .our-course-box:hover a ,  .free-trail-left:hover a{
+    background-color: #400a96;
+    color: white;
+    border-color: #400a96;
+}
+ .content2{
+    color: #000;
+    padding: 22px;
+}
+.content2 h2{
+    padding: 10px 0px;
+}
+.content2 p{
+    line-height: 45px;
+    padding-bottom: 20px;
+}
+.content2 p i{
+    padding-right: 9px;
+}
+.content2 a , .our-course-box a , .free-trail-left a{
+    text-decoration: none;
+    border: 2px solid #e9c40c;
+    color: black;
+    padding: 8px;
+    transition: all 0.3s ease 0s;
+
+}
+.content2 a:hover , .our-course-box a:hover , .free-trail-left a:hover{
+    background-color: white;
+    color: black;
+    border-color: #400a96;
+}
+
+/*  End service-section css */
+/*  start blockchain-section css */
+.blockchain-section{
+}
+/*  start blockchain-section css */
+    .blockchain-data{
+        margin-top: 60px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+   
+    .blockchain-data-img{
+        width:50%;
+        height: 400px;
+        position: relative;
+        top: -150px;
+    }
+    .blockchain-data-img img{
+        width: 100%;
+    }
+    .blockchain-data-content , .free-trail-left{
+        width: 40%;
+    text-align: left;
+    padding-right: 70px;
+        
+    }
+    .blockchain-data-content img{
+        margin-bottom: 20px;
+        margin-top: 40px;
+    }
+    .blockchain-data-content h1{
+        margin-bottom: 34px;
+        padding-right: 120px;
+        font-size: 20px;
+        font-weight: 500;
+        
+    }
+    .blockchain-data-content p{
+        margin-bottom: 34px;
+        font-size: 16px;
+        line-height: 28px;
+
+    }
+   
+    #blockchain-data-down-contain{
+        text-align: right !important;
+    }
+    #blockchain-data-down-contain h1{
+        padding-left: 120px;
+        padding-right: 0;
+    }
+    /* .chk-button{
+        display: block;
+    } */
+   /* .nav ul{
+       width: 100%;
+       position: fixed;
+       background-color: cadetblue; 
+       text-align: center;
+       height: 100vh;
+       margin: 0;
+       padding: 0;
+       left: -100%;
+       transition: all .5s;
+    }
+    .nav ul li {
+        display: block;
+        margin: 0; 
+    } */
+    /* #chk:checked ~ ul{
+        left: 0;
+    } */
+  /*  end blockchain-section css */
+/* start join-section */
+.join-section{
+    background-color: #ffd703;
+    height: 180px;
+    margin-top: 50px;
+}
+.join-section text{
+    width: 68%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.all-item{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    align-items: center;
+    position: relative;
+    top: -25px;
+}
+.all-item img{
+    width: 100%;
+}
+.join-button{
+    font-size: 14px;
+    font-weight: 400;
+    border-width: 2px;
+    color: #ffffff;
+    border-color: #400a96;
+    background-color: #400a96;
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+.join-button a{
+    text-decoration: none;
+    color: #fff;
+}
+.join-section-text{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+.course{
+    width: 100%;
+    height: 250px;
+    background: url(image/course-curriculum-bg-min.jpg);
+    background-position: center center;
+        /* position: relative;
+        top:-56px;
+        z-index: -1; */
+}
+.course-contain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    
+}
+.txt-contain h2{
+    width: 30%;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 600;
+    color: #fff;
+}
+.course-detail{
+    width: 70%;
+}
+.course-detail ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.course-detail ul li{
+    width: 30%;
+    height: 50px;
+    border: 2px solid #fff;
+    margin: 12px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.course-detail ul li a{
+   color: #fff;
+   display: block;
+   text-decoration: none;
+    
+}
+.our-course{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.content-txtcenter{
+    text-align: center;
+}
+.content-txtcenter h2{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+.content-txtcenter p{
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+/*  End join-section css */
+/*  End our-course-section css */
+.course-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.our-course-box{
+    width: 30%;
+    height: 400px;
+    position: relative;
+    margin: 20px 0;
+}
+.our-course-box:hover{
+    background-color: #e9c40c;
+}
+
+.our-course-box::before{
+    content: "";
+    background: url(image/bg-feature.png);
+    position: absolute;
+    top:187px;
+    right: 0;
+    width: 199px;
+    height: 200px;
+}
+.our-course-box-img{
+    background: url(image/course-4-400x170.jpg) no-repeat;
+    height: 40%;
+    background-position: center center ;
+    background-size: cover;
+}
+.content-box{
+    width: 70%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 50px;
+}
+.content-box a{
+    width: 40%;
+}
+/*  End our-course-section css */
+/*  start Achievements-section css */
+.achievement{
+    background:url(image/background-slider-min.jpg)no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#achievement-h2
+{
+    color: #fff;
+}
+.txt-center h5{
+    padding: 0 200px;
+    margin-bottom: 50px;
+    font-size: 16px;
+    line-height: 30px;
+}
+.txt-center p{
+    margin: 50px;
+    font-size: 25px;
+    color: #e9c40c;
+}
+.txt-center h2{
+    margin-bottom: 5px;
+}
+.award{
+    display: flex;
+    /* width: 10%; */
+    justify-content: space-evenly;
+    align-items: center;
+}
+.certifications{
+   
+    display: flex;
+    /* width: 10%; */
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.certification-logo {
+    border: 2px dotted;
+    padding: 0 36px;
+    border-radius: 76px;
+    
+}
+.certification-logo i{
+    font-size: 55px;
+    line-height: 120px;
+}
+.certification-content{
+    margin-right: 60px;
+        /* margin-right: 60px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+.certification-content h1{
+color: #fccf33;
+font-size: 48px;
+}
+/*  End Achievements-section css */
+<!-- /*start-review-section*/ -->
+.review{
+    margin-top: 50px;
+}
+.review-data , .free-trail{
+    display: flex;
+
+}
+.left-review{
+    background: url(image/image-testimonial-min.jpg) no-repeat;
+    height: 600px;
+    width: 50%;
+    background-size: cover;
+    background-position:center ;
+}
+.right-review{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+.right-review p{
+    font-weight: 300;
+    line-height: 32px;
+    color: #6c6c6c;
+    padding-right: 60px;
+    margin-bottom: 23px;
+    font-size: 20px;
+
+}
+.right-review h4 span{
+    display: block;
+    color: #6c6c6c;
+    font-weight: 300;
+}
+
+.right-review h4{
+    margin: 0;
+    /* display: block; */
+    font-size: 18px;
+    color: #111324;
+    text-transform: uppercase;
+}
+/* brand css */
+.brand{
+    margin-top: 50px;
+    
+}
+.logo-brand{
+    width: 100%;
+    /* overflow: scroll; */
+    margin: 0 auto;
+}
+.brands-logo{
+
+    display: flex;
+    justify-content: center;
+}
+.brand-img{
+   
+    padding: 15px;
+}
+
+.brand-img img{
+   
+    height: 42px;
+}
+.free-trail-section{
+    margin:  50px 0;
+}
+.free-trail-left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+}
+.free-trail-left h1{
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 600;
+}
+.free-trail-left p{
+    font-size: 16px;
+    color: rgb(108, 108, 108);
+    letter-spacing: 0.61px;
+}
+.free-trail-right img{
+    width: 100%;
+}
+/* footer css */
+footer{
+    background-color: #400a96;
+}
+.footer-logo{
+height: 450px;
+}
+.footer-contain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+    }
+    .footer-img{
+        width: 30%;
+    }
+.social-link ul{
+    display: flex;
+}
+.social-link li{
+    list-style-type: none;
+    padding: 14px;
+    width: 20px;
+    height: 20px;
+    background-color: blueviolet;
+    border-radius: 50%;
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+.social-link li{
+    padding: 10px;
+}
+.social-link li a i{
+    color: white;
+    
+}
+
+.footer-menu{
+    display: flex;
+    width: 70%;
+    justify-content: space-evenly;
+}
+.menu{
+    margin: 20px;
+}
+.menu h3{
+    color: white;
+    margin: 20px 0;
+}
+.menu ul{
+
+}
+.footer-menu li{
+    list-style-type: none;
+    margin: 0 auto;
+}
+.footer-menu li a{
+    text-decoration: none;
+    color: #bdbdbd;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 30px;
+}
